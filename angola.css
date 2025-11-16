@@ -1,0 +1,129 @@
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+
+        header {
+            background-color: #e50000;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .menu {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            background-color: #d10000;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+            margin: 5px;
+            border-radius: 5px;
+            background-color: #b30000;
+        }
+
+        .menu a:hover {
+            background-color: #ff4d4d;
+        }
+
+        .conteudo {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        .conteudo h2 {
+            color: #b30000;
+        }
+
+        .h3 {
+            padding: 20px;
+            max-width: 900px;
+            margin: auto;
+            color: black;
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #e50000;
+            color: white;
+            margin-top: 20px;
+        }
+
+        .foto {
+            width: 100%;
+            max-width: 350px;
+            display: block;
+            margin: 15px 0;
+            border-radius: 8px;
+        }
+
+        .tabela-wiki {
+            width: 100%;
+            max-width: 900px;
+            border-collapse: collapse;
+            margin: 25px auto;
+            background: #fff;
+            font-size: 16px;
+        }
+
+        .tabela-wiki th,
+        .tabela-wiki td {
+            border: 1px solid #c7c7c7;
+            padding: 10px 12px;
+            text-align: left;
+        }
+
+        .tabela-wiki th {
+            background-color: #f2f2f2;
+            font-weight: bold;
+        }
+
+        .tabela-wiki tr:nth-child(even) td {
+            background-color: #fafafa;
+        }
+
+        ul.pontos-bonitos {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul.pontos-bonitos li {
+            position: relative;
+            padding-left: 20px;
+            margin: 8px 0;
+        }
+
+        ul.pontos-bonitos li::before {
+            content: "•";
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 20px;
+            color: #f2b400;
+            /* amarelo do emblema */
+        }
+
+        header {
+            position: relative;
+            background-color: red;
+            padding: 40px 0;
+        }
+
+        .bandeira-topo {
+            position: absolute;
+            top: 20px;
+            /* distância do topo */
+            right: 20px;
+            /* distância da direita */
+            width: 240px;
+            /* ajuste se quiser maior/menor */
+            border-radius: 5px;
+        }
